@@ -35,21 +35,22 @@ public class stringEqualsExample {
 //		int result = var1 << 1;		// 1비트만큼 옆으로 이동
 //		System.out.println(result);
 
-//		int sc = 85;
-//		char grade; 
-//		grade = (sc > 90) ? 'A' : 'B'; // 조건이 참이면 a, 아니면 b를 출력하라
-//		System.out.println(grade);		//if ~esle(lf~else) 랑 같은 결과
-//
-//		grade = (sc > 90) ? 'A' : ((sc > 80) ? 'B' : 'C');
+		int score = 85;
+		char grade; 
+		grade = (score > 90) ? 'A' : 'B'; // 조건이 참이면 a, 아니면 b를 출력하라
+		System.out.println(grade);		//if ~esle(lf~else) 랑 같은 결과
+
+		grade = (score > 90) ? 'A' : ((score > 80) ? 'B' : 'C');
 	
-		int sc1 = 99;
-		int sc2 = 87;
-		int sc3 = 90;
-		int sc4 = 45;
-		int sc5 = 76;
-		int sc6 = 69;
-		char grade;
-		grade = (sc > 95) ? 'A' : ((sc > 90) ? 'A': (sc > 85) ? 'B' : (sc > 80) ? 'B' : 
-					(sc > 75) ? 'C' : (sc > 70) ? 'C' : (sc > 65) ? 'D' : (sc > 60) ? 'D' : 'F'));
+		
+//		int score = 99;
+//		int score = 87;
+//		int score = 90;
+//		int score = 45;
+//		int score = 76;
+//		int score = 69;
+//		char grade;
+//		grade = (score > 95) ? 'A' : ((score > 90) ? 'A': (score > 85) ? 'B' : (score > 80) ? 'B' : 
+//					(score > 75) ? 'C' : (score > 70) ? 'C' : (score > 65) ? 'D' : (score > 60) ? 'D' : 'F'));
 	}
 }
