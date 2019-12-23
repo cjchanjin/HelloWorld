@@ -40,14 +40,14 @@ public class ArrayExample {
 		
 //		///////////////////////////////////////////////////
 		
-//		String[] strAry = {"hello", "nice", "good",	"wonderful"};
-//		System.out.println(strAry[0]);
-//		System.out.println(strAry[1]);
-//		System.out.println(strAry[2]);
+		String[] strAry = {"hello", "nice", "good",	"wonderful"};
+		System.out.println(strAry[0]);
+		System.out.println(strAry[1]);
+		System.out.println(strAry[2]);
 
-//		String[] strAry = { "hello", "nice", "good", "wonderful" };
-//		for (int i = 0; i < 4; i++)
-//			System.out.println(strAry[i]);
+		String[] strAry1 = { "hello", "nice", "good", "wonderful" };
+		for (int i = 0; i < 4; i++)
+			System.out.println(strAry1[i]);
 
 //		///////////////////////////////////////////////////
 //		int [] num = new int[25];
