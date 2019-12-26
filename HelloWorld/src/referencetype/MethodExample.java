@@ -4,7 +4,7 @@ public class MethodExample {
 	public static void main(String[] args) {
 		printStar();
 		
-		int s1 = sum(3, 5);
+		int s1 = sum(2, 5);
 		System.out.println(s1);
 		
 		double s2 = divideBy(5, 3);
