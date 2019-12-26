@@ -4,27 +4,27 @@ import java.util.Scanner;
 
 public class PersonExample2 {
 	public static void main(String[] args) {
-//		person[] perAry = new person[3];
-//		
-//		person p1 = new person("kim", "12345", 20);
-//		person p2 = new person("park", "54332", 28);
-//		person p3 = new person("jung", "65403", 26);
-//		
-//		perAry[0] = p1;
-//		perAry[1] = p2;
-//		perAry[2] = p3;
-//		
-//		for (int i = 0; i<3; i++)
-//		{
-//			perAry[i].introduce();
-//		}
-//		System.out.println("==========================");
-//		
-//		//확장 for
-//		for(person p : perAry)
-//		{
-//			p.introduce();
-//		}
+		person[] perAry = new person[3];
+		
+		person p1 = new person("kim", "12345", 20);
+		person p2 = new person("park", "54332", 28);
+		person p3 = new person("jung", "65403", 26);
+		
+		perAry[0] = p1;
+		perAry[1] = p2;
+		perAry[2] = p3;
+		
+		for (int i = 0; i<3; i++)
+		{
+			perAry[i].introduce();
+		}
+		System.out.println("==========================");
+		
+		//확장 for
+		for(person p : perAry)
+		{
+			p.introduce();
+		}
 		////////////////////////////////////////////////////////////////////////////
 		
 		boolean run = true;
