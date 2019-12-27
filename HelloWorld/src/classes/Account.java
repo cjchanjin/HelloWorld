@@ -38,4 +38,9 @@ public class Account {
 	public void setBalance(int balance) {
 		this.balance = balance;
 	}
+
+	@Override
+	public String toString() {
+		return "Account [ano=" + ano + ", owner=" + owner + ", balance=" + balance + "]";
+	}
 }
