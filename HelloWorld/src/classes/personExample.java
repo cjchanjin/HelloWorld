@@ -4,9 +4,9 @@ public class personExample {
 	public static void main(String[] args) {
 		person[] persAry = new person[3];
 		
-		person p1 = new person();
-		person p2 = new person();
-		person p3 = new person();
+		person p1 = new person(null, null, 0);
+		person p2 = new person(null, null, 0);
+		person p3 = new person(null, null, 0);
 		
 		persAry[0] = p1;
 		persAry[1] = p2;

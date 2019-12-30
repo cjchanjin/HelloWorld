@@ -62,7 +62,7 @@ public class BankApplication {
 			{
 				break;
 			}
-			System.out.println(accountArray[i]); //generate tostring 기능 이용할때 출력하는법
+			System.out.println(accountArray[i]); //generate ToString 기능 이용할때 출력하는법
 			
 //			System.out.println("계좌번호: " +accountArray[i].getAno()+ "\t" +"계좌주: " 
 //								+ accountArray[i].getOwner() + "\t" +"예금액: " +accountArray[i].getBalance());

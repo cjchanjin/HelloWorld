@@ -32,9 +32,11 @@ public class ForArrayExample {
 			if(q%7 ==0)
 			{
 				var7 = q;
-			System.out.println(var7);
+//			System.out.println(var7);
 			}
+//			System.out.println(var7);
 		}
+		System.out.println(var7);
 		
 				
 		while(true)
@@ -43,6 +45,7 @@ public class ForArrayExample {
 			System.out.println(num);
 			if(num==5)
 				break;
+//			System.out.println(num);
 		}
 		System.out.println("5출력 완료");
 		
