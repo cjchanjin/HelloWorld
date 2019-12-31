@@ -28,7 +28,9 @@ public class UnivFriend extends Friend { //friend 클래스 상속 받는다
 
 	@Override
 	public String toString() {
-		return "UnivFriend [univ=" + univ + ", major=" + major + "]";
+//		return "UnivFriend [univ=" + univ + ", major=" + major + "]";
+		return "이름은: " + super.getName()+ " 연락처는 : " + super.getPhone()
+		+"학교: " +univ+ "전공은 : "+ major;
 	}
 
 	@Override

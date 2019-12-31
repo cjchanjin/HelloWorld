@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FriendExe {
 	private static Scanner scanner = new Scanner(System.in);
-	private static Friend[] friendAry = new Friend[100];
+	private static Friend[] friendAry = new Friend[99];
 	
 	public static void main(String[] args) {
 		boolean run = true;
@@ -68,11 +68,11 @@ public class FriendExe {
 		System.out.println("전공을 입력하세요.");
 		String major = scanner.nextLine();
 		
-		Friend uniAry = new UnivFriend(name, phone, univ, major);
+//		Friend uniAry = new UnivFriend(name, phone, univ, major);
 		for (int i = 0; i < friendAry.length; i++) {
 			if (friendAry[i] == null) 
 			{
-				friendAry[i] = uniAry;
+				friendAry[i] =  new UnivFriend(name, phone, univ, major);
 				System.out.println("결과 : '대학동창'에 저장 되었습니다.");
 				break;
 			}
@@ -127,28 +127,44 @@ public class FriendExe {
 	{
 		System.out.println("이름을 입력하세요.");
 		String name = scanner.nextLine();
-		
-		if(findName(name)==null)
+		Friend temp =findName(name); 
+		if(temp==null)
 		{
 			System.out.println("등록되지 않은 이름입니다.");
+		} else
+		{
+			System.out.println(temp);
 		}
+//		}for(int i=0; i<friendAry.length; i++)
+//		{
+//			if(friendAry[i] == null)
+//			{
+//				break;
+//			}
+//			if(friendAry[i].getName().equals(name))
+//			{
+//				System.out.println(friendAry[i]);
+//			}
+//		}
 		
-			
-	
+		
 	}
 	private static void list()
 	{
 		for(int i = 0; i<friendAry.length; i++)
 		{
+			if(friendAry[i]==null)
+				break;
+			
 			System.out.println("이름: " +friendAry[i].getName()+ "\t" +"전화번호: " 
 							+ friendAry[i].getPhone() + "\t" +"학교: " +friendAry[i].getUniv()
 							+ "\t" + "전공: " + friendAry[i].getMajor() + "\t" + "회사: " + 
 							friendAry[i].getCompany() + "\t" + "부서 : " + friendAry[i].getDept());
+			
 		}
 	}
 	
-	
-	
+
 	
 	
 	

@@ -7,6 +7,8 @@ public class Friend {
 	private String major;
 	private String company;
 	private String dept;
+
+	public Friend () {};
 	
 	public Friend(String name, String phone) { 	//부모클래스의 생성자. 기본클래스는 없고  -> 자식에게 상속된다
 		super();

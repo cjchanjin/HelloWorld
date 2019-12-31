@@ -28,7 +28,9 @@ public class ComFriend extends Friend {
 
 	@Override
 	public String toString() {
-		return "ComFriend [company=" + company + ", dept=" + dept + "]";
+//		return "ComFriend [company=" + company + ", dept=" + dept + "]";
+		return "이름은: " + super.getName()+ " 연락처는 : " + super.getPhone()
+		+"회사: " +company+ "부서는 : "+ dept;
 	}
 	
 	@Override
