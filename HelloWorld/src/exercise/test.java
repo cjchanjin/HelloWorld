@@ -1,5 +1,7 @@
 package exercise;
 
+import java.util.Scanner;
+
 public class test {
 	public static void main(String[] args) {
 		int a=6, b=7, c=10, d=5, e=9;
@@ -22,5 +24,21 @@ public class test {
 				minValue = intAry[j];
 		}
 		System.out.println(minValue);
+		
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
