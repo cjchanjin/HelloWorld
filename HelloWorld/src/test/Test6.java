@@ -8,12 +8,12 @@ public class Test6 {
 	
 	
 	
-	Test6(int num, int num2) {
-		this.num = num;
-
-		if(num)
-		
-	}
+//	Test6(int num, int num2) {
+//		this.num = num;
+//
+//		if(num)
+//		
+//	}
 	
 	Test6(double dnum, double dnum2) {
 		this.dnum = dnum;
